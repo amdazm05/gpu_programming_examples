@@ -3,7 +3,7 @@ set(CMAKE_C_COMPILER "gcc")
 set(CMAKE_CXX_COMPILER "g++")
 
 project(learning)
-option(BASIC_KERNEL "Basic example not built " OFF)
+option(BASIC_KERNEL "Basic CUDA example not built " OFF)
 
 if(BASIC_KERNEL)
     add_subdirectory(${PROJECT_SOURCE_DIR}/examples/basic_kernel)
