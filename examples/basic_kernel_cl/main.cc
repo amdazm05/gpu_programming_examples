@@ -1,9 +1,3 @@
-//
-// Copyright (c) 2010 Advanced Micro Devices, Inc. All rights reserved.
-//
-
-// A minimalist OpenCL program.
-
 #include <CL/cl.h>
 #include <stdio.h>
 
